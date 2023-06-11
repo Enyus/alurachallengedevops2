@@ -2,6 +2,7 @@
 Só com a ajuda do ChatGPT consegui sequer abrir este repositório kkkk.
 
 ## Como rodar o processo
+- Garantir que o <a href="https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html">Java Development Kit JDK versão 17</a> está instalado no computador, assim como o <a href="https://maven.apache.org/download.cgi">maven</a>. <a href="#problemas-com-o-maven">Veja a nota abaixo caso tenha algum problema com o Maven</a>.
 - Garantir que há um schema chamado 'vollmed_api' no MySQL Workbench e garantir que o arquivo /src/main/resources/application.properties está configurado com o usuário e a senha correta para o acesso do MySQL server
 - Usar o comando ```mvn spring-boot:run``` no terminal
 - Cheguei até aqui e o app parece estar rodando, mas ainda preciso descobrir como fazer testes no Hopscotch
@@ -25,4 +26,5 @@ Projeto desenvolvido por [Alura](https://www.alura.com.br) e utilizado nos curso
 Instrutor: [Rodrigo Ferreira](https://cursos.alura.com.br/user/rodrigo-ferreira) 
 
 Forked from: [Este Repositório](https://github.com/alura-cursos/2771-spring-boot)
+
 ---
